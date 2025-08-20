@@ -29,13 +29,13 @@ function App() {
     {
       name: "João Vitor Madero",
       score: "1000",
-      text: "Depois que conheci o PDF, entendi as competencias e consegui melhorar minha nota na redação!",
+      text: "Depois que li as dicas, entendi as competencias e consegui melhorar minha nota na redação!",
       course: "ENEM 2024"
     },
     {
       name: "Pedro Henrique",
       score: "980",
-      text: "Incrível como dicas simples podem fazer tanta diferença. Nos simulados tirava 520-600 depois do PDF consegui tirar 980!",
+      text: "Incrível como dicas simples podem fazer tanta diferença. Nos simulados tirava 520-600 depois de aplicar o que aprendi consegui tirar 980!",
       course: "ENEM 2023"
     },
     {
@@ -60,24 +60,20 @@ function App() {
 
   const faqs = [
     {
-      question: "Como recebo o PDF após o pagamento?",
+      question: "Como recebo o conteudo após o pagamento?",
       answer: "Assim que o pagamento for confirmado, você receberá o PDF diretamente no seu e-mail. O processo é automático e leva no máximo 5 minutos."
-    },
-    {
-      question: "O PDF funciona para qualquer vestibular?",
-      answer: "Sim! As dicas são baseadas nos critérios de avaliação do ENEM, mas funcionam para qualquer vestibular que avalie redação dissertativa-argumentativa."
     },
     {
       question: "Há garantia de satisfação?",
       answer: "Sim! Oferecemos 30 dias de garantia incondicional. Se não ficar satisfeito com o conteúdo, devolvemos 100% do valor investido."
     },
     {
-      question: "Posso imprimir o PDF?",
-      answer: "Claro! O PDF é seu para sempre. Você pode imprimir, salvar no celular, tablet ou computador e acessar quantas vezes quiser."
+      question: "Prefiro ler no papel é possivel?",
+      answer: "Claro! O conteudo é em formato PDF e é seu para sempre. Você pode imprimir, salvar no celular, tablet ou computador e acessar quantas vezes quiser."
     },
     {
       question: "As dicas realmente funcionam?",
-      answer: "Absolutamente! Mais de 5.000 pessoas já baixaram nosso PDF e centenas conseguiram notas acima de 900 pontos. Os depoimentos comprovam a eficácia."
+      answer: "SIM!, após inumeros testes e simulados conseguimos juntar todas as dicas que realmente funcionam."
     }
   ];
 
@@ -350,7 +346,7 @@ function App() {
               Oferta <span className="text-blue-600">Especial</span>
             </h2>
             <p className="text-xl text-gray-600">
-              Por tempo limitado - Garante já o seu PDF exclusivo
+              Por tempo limitado - Garante já o seu 1000 na redação do enem
             </p>
           </div>
 
@@ -363,7 +359,7 @@ function App() {
               </div>
 
               <div className="text-center mb-8">
-                <h3 className="text-3xl font-bold text-gray-900 mb-4">PDF Elite Redação Nota 1000</h3>
+                <h3 className="text-3xl font-bold text-gray-900 mb-4">Dicas Elite Redação Nota 1000</h3>
                 <div className="mb-4">
                   <span className="text-2xl text-gray-500 line-through">De R$ 97</span>
                   <div className="text-5xl font-bold text-blue-600">
@@ -377,7 +373,7 @@ function App() {
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
-                  <span className="text-lg">📚 PDF com 15 dicas exclusivas</span>
+                  <span className="text-lg">📚 Conteudo com 15 dicas exclusivas</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
@@ -472,7 +468,7 @@ function App() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center group">
-              🚀 BAIXAR PDF POR R$ 47
+              🚀 FAZER PARTE DA ELITE POR R$ 47
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
@@ -498,7 +494,7 @@ function App() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-4">PDF</h3>
+              <h3 className="font-semibold mb-4">ELITE ENEM NOTA 1000</h3>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:text-white transition-colors">Conteúdo</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Resultados</a></li>
@@ -530,7 +526,7 @@ function App() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Elite Redação PDF. Todos os direitos reservados.</p>
+            <p>&copy; 2024 Elite Redação. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
