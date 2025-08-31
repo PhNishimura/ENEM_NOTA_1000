@@ -86,22 +86,32 @@ function App() {
     slidesToScroll: 1,
     autoplay: false,
     arrows: false,
+    adaptiveHeight: true,
+    variableWidth: false,
     responsive: [
       {
-        breakpoint: 1024, // for tablets
+        breakpoint: 1200,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           autoplay: false,
         }
       },
       {
-        breakpoint: 640, // for mobile
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          autoplay: false,
+          adaptiveHeight: true,
+        }
+      },
+      {
+        breakpoint: 480,
         settings: {
           slidesToShow: 1,
           autoplay: false,
-          dots: true,
-          centerMode: true,
-          centerPadding: '20px',
+          adaptiveHeight: true,
+          centerMode: false,
+          variableWidth: false,
         }
       }
     ]
@@ -309,11 +319,12 @@ function App() {
           </div>
 
           {/* 3. Replace the grid div with the Slider component */}
-          <Slider {...carouselSettings}>
+          <div className="testimonials-carousel">
+            <Slider {...carouselSettings}>
             {testimonials.map((testimonial, index) => (
               // Add a padding div wrapper for spacing between slides
-              <div key={index} className="px-4"> 
-                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow h-full flex flex-col justify-between">
+              <div key={index} className="px-2 sm:px-4"> 
+                <div className="bg-white rounded-xl p-4 sm:p-6 shadow-lg hover:shadow-xl transition-shadow mx-auto max-w-sm">
                   <div>
                     <div className="flex items-center mb-4">
                       <div className="flex text-yellow-400">
@@ -339,7 +350,8 @@ function App() {
                 </div>
               </div>
             ))}
-          </Slider>
+            </Slider>
+          </div>
         </div>
       </section>
 
