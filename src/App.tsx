@@ -84,19 +84,24 @@ function App() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
+    autoplay: false,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024, // for tablets
         settings: {
           slidesToShow: 2,
+          autoplay: false,
         }
       },
       {
         breakpoint: 640, // for mobile
         settings: {
           slidesToShow: 1,
+          autoplay: false,
+          dots: true,
+          centerMode: true,
+          centerPadding: '20px',
         }
       }
     ]
