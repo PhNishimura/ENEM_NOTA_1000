@@ -2,29 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Carousel customizations for mobile */
-.testimonials-carousel .slick-dots {
-  bottom: -50px;
+
+/* App.css */
+
+/* 
+  O contêiner que segura os slides.
+  Ele SEMPRE será um flex container.
+*/
+.slick-track {
+  display: flex !important;
 }
 
-.testimonials-carousel .slick-dots li button:before {
-  font-size: 12px;
-  color: #3B82F6;
-  opacity: 0.5;
+/*
+  O slide individual.
+  Por padrão, sua altura é automática. Isso é perfeito para o MODO CELULAR.
+*/
+.slick-slide {
+  height: auto;
 }
 
-.testimonials-carousel .slick-dots li.slick-active button:before {
-  opacity: 1;
-  color: #3B82F6;
+/*
+  O wrapper direto dentro do slide.
+  Ele precisa ter altura total para que nosso card (com h-full) funcione.
+*/
+.slick-slide > div {
+  height: 100%;
 }
 
-/* Ensure proper spacing on mobile */
-@media (max-width: 480px) {
-  .testimonials-carousel .slick-slide {
-    padding: 0 8px;
-  }
-  
-  .testimonials-carousel .slick-list {
-    margin: 0 -8px;
-  }
+/*
+  AQUI ESTÁ O SEGREDO:
+  Quando um slide NÃO está ativo (ou seja, quando há vários slides visíveis),
+  nós forçamos o card a se esticar.
+  O seletor '.slick-slide:not(.slick-active)' só funciona bem em modo de múltiplos slides.
+  No modo de um slide só, ele não se aplica da mesma forma, evitando o conflito.
+  Isso força a altura igual no DESKTOP, mas deixa a altura automática no CELULAR.
+*/
+.slick-slide:not(.slick-active) .testimonial-card {
+  height: 100%;
+}
+
+.slick-slide.slick-active .testimonial-card {
+    height: 100%;
 }

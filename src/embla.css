@@ -1,0 +1,80 @@
+/* embla.css */
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  /* Espaçamento entre os slides */
+  margin-left: -1rem; 
+}
+
+.embla__slide {
+  flex: 0 0 100%; /* No celular, cada slide ocupa 100% */
+  min-width: 0;
+  /* Espaçamento entre os slides */
+  padding-left: 1rem;
+}
+
+/* Para telas de tablet e maiores */
+@media (min-width: 640px) {
+  .embla__slide {
+    flex: 0 0 50%; /* 2 slides por vez */
+  }
+}
+
+/* Para telas de desktop */
+@media (min-width: 1024px) {
+  .embla__slide {
+    flex: 0 0 33.3333%; /* 3 slides por vez */
+  }
+}
+.embla__button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  
+  /* Estilos dos botões */
+  width: 4rem;
+  height: 4rem;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Posicionamento */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Esconde os botões no celular */
+@media (max-width: 768px) {
+  .embla__button {
+    display: none;
+  }
+}
+
+.embla__button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+/* CSS NOVO (Setas mais afastadas) */
+.embla__button--prev {
+  left: -5rem; /* De -2rem para -2.5rem */
+}
+
+.embla__button--next {
+  right: -5rem; /* De -2rem para -2.5rem */
+}
