@@ -421,6 +421,95 @@ function App() {
         </div>
       </section>
 
+      {/* Serviço de Correção */}
+      <section className="py-16 bg-gradient-to-br from-green-50 to-emerald-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div className="grid lg:grid-cols-2 gap-0">
+              {/* Left side - Content */}
+              <div className="p-8 lg:p-12">
+                <div className="space-y-6">
+                  <div className="inline-flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">
+                    <MessageCircle className="h-4 w-4 mr-2" />
+                    Serviço Adicional Exclusivo
+                  </div>
+                  
+                  <h3 className="text-3xl lg:text-4xl font-bold text-gray-900">
+                    Correção Personalizada
+                    <span className="block text-green-600">da Sua Redação</span>
+                  </h3>
+                  
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Além das 15 dicas secretas, oferecemos correção detalhada da sua redação 
+                    com feedback personalizado para você aplicar na prática!
+                  </p>
+
+                  <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
+                      <span className="text-gray-700">📝 Correção detalhada por especialista</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
+                      <span className="text-gray-700">📊 Nota estimada por competência</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
+                      <span className="text-gray-700">💡 Sugestões específicas de melhoria</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
+                      <span className="text-gray-700">⚡ Retorno em até 48h</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Right side - Pricing */}
+              <div className="bg-gradient-to-br from-green-600 to-emerald-700 p-8 lg:p-12 text-white">
+                <div className="space-y-6">
+                  <div className="text-center">
+                    <div className="inline-flex items-center bg-white/20 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                      🔥 Combo Completo
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <div className="text-lg opacity-90">PDF Elite Redação</div>
+                      <div className="text-3xl font-bold">R$ 47</div>
+                      <div className="text-lg opacity-90">+</div>
+                      <div className="text-lg opacity-90">Correção Personalizada</div>
+                      <div className="text-3xl font-bold">R$ 15</div>
+                      <div className="border-t border-white/30 pt-4 mt-4">
+                        <div className="text-sm opacity-75">Total:</div>
+                        <div className="text-4xl font-bold">R$ 62</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="space-y-4">
+                    <button className="w-full bg-white text-green-600 py-4 rounded-xl text-lg font-bold hover:bg-gray-100 transition-colors">
+                      🚀 QUERO O COMBO COMPLETO
+                    </button>
+                    
+                    <div className="text-center">
+                      <div className="text-sm opacity-90 mb-2">Ou apenas o PDF:</div>
+                      <button className="w-full border-2 border-white/30 text-white py-3 rounded-xl text-base font-semibold hover:bg-white/10 transition-colors">
+                        📚 APENAS O PDF POR R$ 47
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="text-center text-sm opacity-75">
+                    <p>💳 Pagamento seguro via PIX ou cartão</p>
+                    <p>🛡️ Garantia de 30 dias em ambos os serviços</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section id="faq" className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
