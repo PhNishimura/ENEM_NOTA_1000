@@ -461,7 +461,7 @@ function App() {
             {/* Este novo contêiner interno recebe o padding, com mais espaço no topo (pt-12) */}
             <div className="p-8 pt-12 text-center">
               <div className="mb-8">
-                <h3 className="text-3xl font-bold text-gray-900 mb-4">Dicas Elite Redação Nota 1000</h3>
+                <h3 className="text-3xl font-bold text-gray-900 mb-4">Método Elite Redação Nota 1000</h3>
                 <div className="mb-4">
                   <span className="text-2xl text-gray-500 line-through">De R$ 49,90</span>
                   <div className="text-5xl font-bold text-blue-600">
