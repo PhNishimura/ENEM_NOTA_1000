@@ -625,7 +625,7 @@ function App() {
                   <MessageCircle className="h-4 w-4 mr-2" />
                   Instagram: @menteapravada_
                 </li>
-                <li>contato@eliteredacao.com.br</li>
+                <li>menteaprovada3017@gmail.com</li>
               </ul>
             </div>
           </div>
