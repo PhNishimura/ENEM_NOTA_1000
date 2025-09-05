@@ -171,14 +171,14 @@ function App() {
                   <span className="block text-blue-600">NOTA 1000 ENEM</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  O guia definitivo com as 15 dicas secretas, que foram criadas por estudantes e aplicadas em provas reais. <strong>Método testado e aprovado!</strong>
+                  O guia definitivo com dicas secretas, que foram criadas por estudantes e aplicadas em provas reais. <strong>Método testado e aprovado!</strong>
                 </p>
               </div>
 
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-sm">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                  <span className="text-sm font-medium">15 Dicas Secretas</span>
+                  <span className="text-sm font-medium">Dicas Secretas</span>
                 </div>
                 <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-sm">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
@@ -257,7 +257,7 @@ function App() {
               O que você vai <span className="text-blue-600">Descobrir</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              15 dicas poderosas que foram criadas por estudantes, aplicadas em provas reais para garantir 
+              Dicas poderosas que foram criadas por estudantes, aplicadas em provas reais para garantir 
               a sua nota 1000 na redação do ENEM. <strong>Conteúdo direto ao ponto!</strong>
             </p>
           </div>
@@ -368,7 +368,7 @@ function App() {
                   </h3>
                   
                   <p className="text-lg text-gray-600 leading-relaxed">
-                    Além das 15 dicas secretas, oferecemos correção detalhada da sua redação 
+                    Além das dicas secretas, oferecemos correção detalhada da sua redação 
                     com feedback personalizado para você aplicar na prática!
                   </p>
 
@@ -422,9 +422,14 @@ function App() {
                   </div>
 
                   <div className="space-y-4">
-                    <button className="w-full bg-white text-green-600 py-4 rounded-xl text-lg font-bold hover:bg-gray-100 transition-colors">
-                      🚀 QUERO O COMBO COMPLETO
-                    </button>
+                  <a
+                    href="https://pay.kiwify.com.br/49iQfGS"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-full inline-block text-center bg-white text-green-600 py-4 rounded-xl text-lg font-bold hover:bg-gray-100 transition-colors"
+                  >
+                    🚀 QUERO O COMBO COMPLETO
+                  </a>
                     
                     <div className="text-center">
                       <div className="text-sm opacity-90 mb-2">Ou apenas o método:</div>
@@ -485,7 +490,7 @@ function App() {
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
-                  <span className="text-lg">📚 Conteudo com 15 dicas exclusivas</span>
+                  <span className="text-lg">📚 Conteudo com dicas exclusivas</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
@@ -512,10 +517,14 @@ function App() {
                   <span className="text-lg">🛡️ Garantia de 7 dias</span>
                 </li>
               </ul>
-
-              <button className="w-full bg-blue-600 text-white py-4 rounded-xl text-xl font-bold hover:bg-blue-700 transition-colors mb-4">
+              <a
+                href="https://pay.kiwify.com.br/MQysMbh"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full inline-block text-center bg-blue-600 text-white py-4 rounded-xl text-xl font-bold hover:bg-blue-700 transition-colors mb-4"
+              >
                 🚀 QUERO APRENDER A TIRAR 1000 AGORA
-              </button>
+              </a>
 
               <div className="text-center text-sm text-gray-600">
                 <p>💳 Pagamento 100% seguro via PIX, cartão ou boleto</p>
@@ -577,15 +586,20 @@ function App() {
             ⏰ Últimas horas da oferta especial!
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Não perca a chance de ter acesso às 15 dicas secretas que podem 
+            Não perca a chance de ter acesso às dicas secretas que podem 
             mudar completamente sua redação e garantir sua aprovação!
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center group">
+            <a
+              href="https://pay.kiwify.com.br/49iQfGS"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-white text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center group"
+            >
               🚀 FAZER PARTE DA ELITE POR R$ 34,90
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
           </div>
 
           <div className="mt-8 text-blue-200 text-sm">
